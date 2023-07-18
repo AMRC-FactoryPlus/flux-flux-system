@@ -2,8 +2,6 @@
 
 set -x
 
-base="http://git.amrc-fpd-bmz.shef.ac.uk/git"
-
 rm -f *.yaml
 
 flux install --export >flux-system.yaml
